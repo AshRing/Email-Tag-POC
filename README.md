@@ -10,6 +10,7 @@ Proof of Concept for adding multiple emails as editable tags.
 - Each email is editable. Edit an email by clicking the text on the chip and hitting `enter` after finished editing (also consider clicking outside to finish or other options)
 - Error messages have not been added with this POC
 - Emails tags need some sort of ID
+- Tag would be a good candidate for a common component
 
 ## Run
 
