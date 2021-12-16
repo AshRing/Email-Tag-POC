@@ -55,6 +55,7 @@ function App() {
     if (emailDetail.editActive) {
       return (
         <input
+          style={{ marginRight: "4px", padding: "2px 4px" }}
           autoFocus
           type="text"
           value={editValue}
@@ -81,7 +82,7 @@ function App() {
         }}
       >
         <span
-          onClick={() =>
+          onClick={() => {
             setEmailList(
               emailList.map((e) => {
                 if (e.id === emailDetail.id) {
@@ -89,8 +90,9 @@ function App() {
                 }
                 return e;
               })
-            )
-          }
+            );
+            setEditValue(emailDetail.email);
+          }}
         >
           {emailDetail.email}
         </span>
@@ -123,7 +125,13 @@ function App() {
       >
         {emailList.map((emailDetail) => renderChip(emailDetail))}
         <input
-          style={{ border: "none", outline: "none", flex: 1 }}
+          style={{
+            outline: "none",
+            border: "1px solid blue",
+            borderRadius: "4px",
+            padding: "2px 4px",
+            flex: 1,
+          }}
           ref={mainInputRef}
           type="email"
           value={email}
