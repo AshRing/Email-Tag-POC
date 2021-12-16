@@ -1,7 +1,8 @@
 # Email Tag POC
 
 Proof of Concept for adding multiple emails as editable tags.
-(DEMO)[https://ashring.github.io/Email-Tag-POC/]
+
+[DEMO](https://ashring.github.io/Email-Tag-POC/)
 
 ## Considerations
 
