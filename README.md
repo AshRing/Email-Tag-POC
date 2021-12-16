@@ -2,8 +2,6 @@
 
 Proof of Concept for adding multiple emails as editable tags.
 
---
-
 ## Considerations
 
 - Email is added as a tag/chip after `comma` or `space` keystroke.
