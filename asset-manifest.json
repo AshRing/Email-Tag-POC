@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Email-Tag-POC/static/css/main.c6edd907.css",
+    "main.js": "/Email-Tag-POC/static/js/main.144e180b.js",
+    "static/js/787.86e5ecb4.chunk.js": "/Email-Tag-POC/static/js/787.86e5ecb4.chunk.js",
+    "index.html": "/Email-Tag-POC/index.html",
+    "main.c6edd907.css.map": "/Email-Tag-POC/static/css/main.c6edd907.css.map",
+    "main.144e180b.js.map": "/Email-Tag-POC/static/js/main.144e180b.js.map",
+    "787.86e5ecb4.chunk.js.map": "/Email-Tag-POC/static/js/787.86e5ecb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6edd907.css",
+    "static/js/main.144e180b.js"
+  ]
+}
